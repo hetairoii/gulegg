@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Clock, BarChart } from 'lucide-react';
+import { Clock} from 'lucide-react';
 import { EggPreparation } from '../../types';
 import Card from '../common/Card';
 
@@ -49,10 +49,7 @@ const EggPreparationCard: React.FC<EggPreparationCardProps> = ({ preparation }) 
               <Clock size={16} className="mr-1" />
               <span>{totalTime} min</span>
             </div>
-            <div className="flex items-center">
-              <BarChart size={16} className="mr-1" />
-              <span>{difficulty}</span>
-            </div>
+            
           </div>
         </div>
       </Link>
